@@ -1,0 +1,30 @@
+.cart h1{
+    margin-top: 80px;
+}
+table{
+    width: 90%;
+    margin: 10px auto;
+}
+.miniatura-img{
+    width: 80px;
+}
+tr{
+    width: 100%;
+}
+td{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+tr :nth-child(3){
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+tr :nth-child(5){
+    font-weight: bold;
+}
+th{
+    text-align: center;
+    width: 20%;
+}
